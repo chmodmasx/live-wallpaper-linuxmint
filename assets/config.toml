@@ -1,0 +1,34 @@
+# Configuración por defecto de Cinnamon Wallpaper
+# Este archivo se instala como configuración base del sistema.
+
+[video]
+hardware_acceleration = true
+loop_playback = true
+scaling_quality = 8
+target_fps = 0
+audio_enabled = false
+max_buffer_frames = 3
+
+[window]
+below_all_windows = true
+stick_to_all_desktops = true
+override_decorations = true
+opacity = 1.0
+enable_nemo_refresh = true
+nemo_refresh_interval_ms = 2000
+
+[performance]
+gpu_vendor = "auto"
+cpu_fallback = true
+max_cache_memory_mb = 512
+frame_skipping = false
+adaptive_quality = true
+
+[cinnamon]
+integrate_with_background_system = true
+respect_desktop_icons = true
+use_compositor_optimizations = true
+adapt_to_theme_changes = false
+preserve_native_wallpaper = false
+use_solid_background_for_video = true
+autostart_enabled = true

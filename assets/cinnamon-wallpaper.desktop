@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Cinnamon Wallpaper
+Comment=Live wallpaper application optimized for Linux Mint Cinnamon
+Comment[es]=Aplicación de fondos de pantalla animados optimizada para Linux Mint Cinnamon
+GenericName=Live Wallpaper
+Keywords=wallpaper;background;video;cinnamon;desktop;
+Exec=cinnamon-wallpaper --gui
+Icon=cinnamon-wallpaper
+Terminal=false
+Categories=Graphics;Photography;Utility;
+StartupNotify=false
+MimeType=video/mp4;video/avi;video/mkv;video/webm;image/jpeg;image/png;image/bmp;image/gif;

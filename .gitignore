@@ -1,0 +1,16 @@
+# Rust build output
+/target
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Ignore local videos/thumbnails if they are ever placed in root (though code suggests .local/share)

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Cinnamon Live Wallpaper
+Comment=Restore active video wallpaper on startup
+Exec=cinnamon-wallpaper --restore-last
+Icon=cinnamon-wallpaper
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Categories=Graphics;Multimedia;

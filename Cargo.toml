@@ -1,0 +1,85 @@
+[package]
+name = "cinnamon-wallpaper"
+version = "1.0.0"
+edition = "2021"
+authors = ["Cinnamon Wallpaper Team"]
+description = "Native animated wallpaper application for Linux Mint Cinnamon"
+license = "MIT"
+repository = "https://github.com/chmodmasx/live-wallpaper-linuxmint"
+keywords = ["wallpaper", "cinnamon", "linux-mint", "desktop", "animation"]
+categories = ["multimedia", "os::linux-apis"]
+
+[dependencies]
+# X11 and window management
+x11rb = { version = "0.13", features = ["all-extensions"] }
+
+# Video processing and codecs
+gstreamer = { version = "0.22", features = ["v1_20"] }
+gstreamer-video = "0.22"
+gstreamer-app = "0.22"
+gstreamer-gl = "0.22"
+
+# System integration
+nix = { version = "0.28", features = ["process", "signal"] }
+libc = "0.2"
+
+# Configuration and CLI
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+
+# GUI (GTK4)
+gtk4 = { version = "0.8", features = ["v4_10"] }
+gdk4 = "0.8"
+gio = "0.19"
+gdk-pixbuf = "0.19"
+
+# File handling and utilities
+dirs = "5.0"
+walkdir = "2.5"
+uuid = { version = "1.0", features = ["v4"] }
+image = "0.24"
+notify = "6.1"
+lazy_static = "1.4"
+once_cell = "1.20"
+shell-words = "1.1"
+
+# Logging and error handling
+log = "0.4"
+env_logger = "0.11"
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Async runtime (for video streaming)
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "signal", "sync", "time"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[package.metadata.deb]
+maintainer = "Cinnamon Wallpaper Team"
+copyright = "2025, Cinnamon Wallpaper Team"
+license-file = ["LICENSE", "4"]
+extended-description = """\
+A native, high-performance animated wallpaper application specifically \
+designed for Linux Mint Cinnamon desktop environment. Features GPU \
+acceleration, multi-monitor support, and minimal system resource usage."""
+# Dependencias del sistema necesarias para ejecutar la aplicación en Debian/Ubuntu/Linux Mint.
+# $auto preserva las dependencias deducidas por cargo-deb (por ejemplo libssl, libc, etc.).
+depends = "$auto, libgtk-4-1, libgdk-pixbuf-2.0-0, libgstreamer1.0-0, libgstreamer-plugins-base1.0-0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-libav, ffmpeg"
+section = "graphics"
+priority = "optional"
+assets = [
+    ["target/release/cinnamon-wallpaper", "usr/bin/", "755"],
+    ["assets/cinnamon-wallpaper.desktop", "usr/share/applications/", "644"],
+    ["assets/config.toml", "usr/share/cinnamon-wallpaper/", "644"],
+    # Install the scalable SVG icon into the hicolor theme so Icon=cinnamon-wallpaper works
+    ["assets/icons/LiveWallpaperIcon.svg", "usr/share/icons/hicolor/scalable/apps/cinnamon-wallpaper.svg", "644"],
+    ["README.md", "usr/share/doc/cinnamon-wallpaper/", "644"],
+
+]
+
+maintainer-scripts = "debian"

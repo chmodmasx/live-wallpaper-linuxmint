@@ -1,0 +1,84 @@
+# Configuración de Cinnamon Wallpaper
+# Este archivo de ejemplo muestra todas las opciones disponibles.
+# Las claves comentadas muestran los valores por defecto.
+
+[video]
+# Habilitar aceleración por hardware (GPU)
+# hardware_acceleration = true
+
+# Reproducir en bucle infinito
+# loop_playback = true
+
+# Calidad de escalado (1-10, 1=más rápido, 10=mejor calidad)
+# scaling_quality = 8
+
+# FPS objetivo (0 = usar el FPS nativo del video)
+# target_fps = 0
+
+# Habilitar audio (generalmente false para wallpapers)
+# audio_enabled = false
+
+# Máximo de frames en buffer para la extracción (appsink). 0=auto, recomendados 2-4
+# max_buffer_frames = 3
+
+[window]
+# Mantener la ventana siempre por debajo de las demás
+# below_all_windows = true
+
+# Fijar la ventana a todos los escritorios/workspaces
+# stick_to_all_desktops = true
+
+# Eliminar decoraciones del window manager
+# override_decorations = true
+
+# Opacidad de la ventana (0.0-1.0)
+# opacity = 1.0
+
+# Habilitar refresh periódico de ventanas Nemo (íconos del escritorio)
+# enable_nemo_refresh = true
+
+# Intervalo mínimo entre refreshes de Nemo en milisegundos
+# nemo_refresh_interval_ms = 2000
+
+[performance]
+# Proveedor de GPU preferido: "nvidia", "amd", "intel" o "auto"
+# gpu_vendor = "auto"
+
+# Habilitar fallback a CPU si la GPU falla
+# cpu_fallback = true
+
+# Memoria máxima para caché de video (MB)
+# max_cache_memory_mb = 512
+
+# Habilitar frame skipping en sistemas lentos
+# frame_skipping = false
+
+# Reducir calidad cuando el sistema está bajo carga
+# adaptive_quality = true
+
+[cinnamon]
+# Integrar con el sistema de fondos de Cinnamon
+# integrate_with_background_system = true
+
+# Respetar los íconos del escritorio de Cinnamon
+# respect_desktop_icons = true
+
+# Usar optimizaciones del compositor de Cinnamon
+# use_compositor_optimizations = true
+
+# Adaptarse automáticamente a cambios de tema
+# adapt_to_theme_changes = false
+
+# Si es true, no modificar las claves del wallpaper nativo de Cinnamon (modo seguro)
+# preserve_native_wallpaper = false
+
+# Si es true, al aplicar un video usar fondo sólido en Cinnamon
+# use_solid_background_for_video = true
+
+# Habilitar autostart del wallpaper al inicio del sistema
+# autostart_enabled = true
+
+# Configuración por monitor (índice del monitor como clave → ajustes)
+# [cinnamon.monitors.0]
+# video_path = "/ruta/al/video.mp4"
+# scaling_mode = "cover"

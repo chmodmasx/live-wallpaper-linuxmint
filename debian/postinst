@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+
+# Post-installation script for cinnamon-wallpaper deb package
+# Ensure the icon and desktop file are registered with the system and update icon cache.
+
+# Update icon cache for hicolor theme
+if command -v gtk-update-icon-cache >/dev/null 2>&1; then
+  gtk-update-icon-cache -f -t /usr/share/icons/hicolor || true
+fi
+
+# Update desktop database so the launcher picks up the new .desktop file
+if command -v update-desktop-database >/dev/null 2>&1; then
+  update-desktop-database /usr/share/applications || true
+fi
+
+exit 0

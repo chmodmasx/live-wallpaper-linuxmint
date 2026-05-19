@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.46666mm"
+   height="135.4666mm"
+   viewBox="0 0 135.46667 135.4666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
+   sodipodi:docname="SupraLINUX.svg"
+   inkscape:export-filename="Logos con texto/SupraLINUX-CLARO.webp"
+   inkscape:export-xdpi="181.91238"
+   inkscape:export-ydpi="181.91238"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="1411.3851"
+     inkscape:cy="2477.7022"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:clip-to-page="false"
+     inkscape:antialias-rendering="true"
+     inkscape:export-bgcolor="#ffffffff">
+    <inkscape:page
+       x="-2.9411726e-16"
+       y="0"
+       width="135.46667"
+       height="135.4666"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(256.79372,-1054.0852)">
+    <g
+       id="g23"
+       transform="translate(-120.6489,261.68368)">
+      <g
+         id="g22"
+         transform="matrix(2.8449943,0,0,2.8449945,-357.44365,546.41758)">
+        <path
+           id="path21"
+           style="fill:#51a2da;fill-opacity:1;stroke:none;stroke-width:2.69158"
+           d="m 87.723833,86.462039 h 27.738797 c 5.50592,0 9.9385,4.086604 9.9385,9.162798 V 134.0778 c 0,0 -26.872057,-0.024 -37.677297,-0.024 -5.505928,0 -9.938499,-4.08661 -9.938499,-9.16278 V 95.624805 c 0,-5.076193 4.432571,-9.162797 9.938499,-9.162797 z"
+           sodipodi:nodetypes="ssscssss" />
+        <g
+           id="g24"
+           transform="translate(0,-7.3651921)">
+          <text
+             xml:space="preserve"
+             style="font-size:32.1419px;text-align:start;letter-spacing:-2.65615px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f6f6f6;fill-opacity:1;stroke-width:0.602661"
+             x="84.246857"
+             y="121.43921"
+             id="text21"><tspan
+               sodipodi:role="line"
+               id="tspan21"
+               style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Ultra-Bold';letter-spacing:-2.65615px;fill:#f6f6f6;fill-opacity:1;stroke-width:0.602661"
+               x="84.246857"
+               y="121.43921">SL</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.86684px;text-align:start;letter-spacing:-0.484824px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f6f6f6;fill-opacity:1;stroke-width:0.110003"
+             x="83.805847"
+             y="132.80457"
+             id="text21-2"><tspan
+               sodipodi:role="line"
+               id="tspan21-9"
+               style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Ultra-Bold';letter-spacing:-0.484824px;fill:#f6f6f6;fill-opacity:1;stroke-width:0.110003"
+               x="83.805847"
+               y="132.80457">Live Wallpaper</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:8.86617px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Ultra-Bold';text-align:start;letter-spacing:-1.24681px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f6f6f6;fill-opacity:1;stroke-width:0.16624"
+             x="111.09182"
+             y="104.92786"
+             id="text22"><tspan
+               sodipodi:role="line"
+               id="tspan22"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#f6f6f6;fill-opacity:1;stroke-width:0.16624"
+               x="111.09182"
+               y="104.92786">®</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
