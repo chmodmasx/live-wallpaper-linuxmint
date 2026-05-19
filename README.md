@@ -21,6 +21,8 @@
 
 ### Método 1: Instalar desde paquete .deb (Recomendado)
 
+[Descarga el release](https://github.com/chmodmasx/live-wallpaper-linuxmint/releases)
+
 ```bash
 # Si tienes el archivo .deb local
 sudo dpkg -i cinnamon-wallpaper_1.0.0-1_amd64.deb
